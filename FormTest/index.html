@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Four Forms Page</title>
+    <meta charset = "utf-8">
+</head>
+<body>
+    <h1>FORMS</h1>
+
+    <hr/>
+    <div>
+        <form method = "post" action = "form.php">
+            <!--option-->
+            <div><select name = "opts">
+                <option value = "">Choose one option</option>
+                <option value = "opt1">Option One</option>
+                <option value = "opt2">Option Two</option>
+                </select></div>
+            <br>
+            <!--options-->
+            <div><select name="muo[]" multiple>
+                <option value = "">Choose options</option>
+                <option value = "muo1">Option One</option>
+                <option value = "muo2">Option Two</option>
+                <option value = "muo3">Option Three</option>
+                </select></div>
+            <br>
+            <!--radio-->
+            <div>
+                <input type = "radio" value = "rad1" name = "rad"/>Radio1
+                <br>
+                <input type = "radio" value = "rad2" name = "rad"/>Radio2
+            </div>
+            <br>
+            <!--checkbox-->
+            <div>
+                <input type="checkbox" value="cb1" name="cbs[]" />Checkbox1<br>
+                <input type="checkbox" value="cb2" name="cbs[]" />Checkbox2
+            </div>
+            <br>
+            <input type = "submit" value = "okay">
+        </form>
+    </div>
+
+    <hr />
+</body>
+</html>
